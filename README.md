@@ -1,7 +1,7 @@
 # EOChallenge
 source: [https://www.eodashboardhackathon.org/](url)
 
-This repository collects materials for the **Earth Observation (EO) Dashboard Hackathon 2021**. Our chosen topic is "A comparative analysis".
+This repository collects materials for the **Earth Observation (EO) Dashboard Hackathon 2021**. Our chosen topic is **_"A comparative analysis"_**.
 
 # The Challenge
 source: [https://www.eodashboardhackathon.org/challenges/interconnected-earth-system-impact/comparative-analysis/details](url)
