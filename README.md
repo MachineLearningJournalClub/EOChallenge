@@ -1,10 +1,11 @@
 # EOChallenge
+source: [https://www.eodashboardhackathon.org/](url)
 
-This repository collects materials for the **Earth Observation (EO) Dashboard Hackathon 2021** [https://www.eodashboardhackathon.org/](url).
-Our chosen topic is "A comparative analysis".
+This repository collects materials for the **Earth Observation (EO) Dashboard Hackathon 2021**. Our chosen topic is "A comparative analysis".
 
 # The Challenge
 source: [https://www.eodashboardhackathon.org/challenges/interconnected-earth-system-impact/comparative-analysis/details](url)
+
 The COVID-19 pandemic has had different impacts in different regions of the world. Your challenge is to perform a comparative analysis of the pandemic’s economic impacts in urban areas for the USA, Asia, and Europe using the EO Dashboard.
 
 # Background
