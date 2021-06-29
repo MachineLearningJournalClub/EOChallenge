@@ -10,15 +10,22 @@ The COVID-19 pandemic has had different impacts in different regions of the worl
 In order to quantify the behaviour of a group of nation in Europe, Asia and America during the pandemic we used a method that does dimensionality reduction on the time serie of the given gases. This is done by using a Neural Network Autoencoder, which is basically a perceptron that tries to create an output which is equal to it's input. We trained the NN and we got the output on the intemediate layer of it (in our work it is 7-dimensional). We then "compressed" the whole time serie in a single vector, which is the internal reppresentation that the NN has of the input. We then combined the different vectors given by every time serie for a given country (one for every gas) by joining them. In the end DBScan is used to clusterize the results, optionally by doing PCA.
 
 # Objectives
-Out aim is to create a feasible application to the EODashboard in order to quantify the socio-economic impacts that the pandemic has had on different cuntries. We perform using different varibles from the Copernicus Sentinel 5. 
+Out aim is to create a feasible application to the EODashboard in order to quantify the socio-economic impacts that the pandemic has had on different cuntries. We perform using different varibles from the Copernicus Sentinel 5.
 
 # How to Use
 
-- First of all data must be retreived from Sentinel hub platform by using the file: S5PL2.ipynb
-- After that the data for all the countries must be stored using the merge_file.ipybn
+All the notebooks used in this competition are in the folder notebook. Since the time was tight some errors can be found. If you find any, let us know and we will be happy to fix it for you.
+
+The pipeline that has to be followed is here described:
+
+- First of all, data must be retrieved from the Sentinel hub platform by using the file: S5PL2.ipynb
+- After that, the data for all the countries must be stored using the merge_file.ipybn. Also, you can create a csv file with the different informations with the csv.py file.
 - Different type of analysis can be done at this point:
 
-  a) An autoencoder architecture to reduce time series to a bunch of scalar values representing emission changes during a given period; such scalar values    could then be used to differentiate between countries.
-  
+  a) An autoencoder architecture to reduce time series to a bunch of scalar values representing emission changes during a given period; such scalar values could then be used to differentiate between countries.
+
   b) A country-specific time series study to understand the change in emission pattern during the pandemic. This is achieved by using Prophet [https://github.com/facebook/prophet](url), open source software released by Facebook's Core Data Science team.
 
+# Map
+
+The map folder contains the useful files in order to visualise the results. The html file is the final result, while the source code is in the python notebook. The data is then stored in the data folder.
