@@ -1,18 +1,13 @@
-# EOChallenge
-source: [https://www.eodashboardhackathon.org/](url)
-
-This repository collects materials for the **Earth Observation (EO) Dashboard Hackathon 2021**. Our chosen topic is **_"A comparative analysis"_**.
-
 # The Challenge
 source: [https://www.eodashboardhackathon.org/challenges/interconnected-earth-system-impact/comparative-analysis/details](url)
 
 The COVID-19 pandemic has had different impacts in different regions of the world. Your challenge is to perform a comparative analysis of the pandemic’s economic impacts in urban areas for the USA, Asia, and Europe using the EO Dashboard.
 
 # Background
-The COVID-19 pandemic has had different impacts in different regions of the world, and these impacts depend on a number of different factors. Your challenge is to perform a comparative analysis of the pandemic’s economic impacts in urban areas for the USA, Asia, and Europe using the EO Dashboard. Your analysis may focus on air quality impact assessment (greenhouse gas, GHG, and NO2) and/or economic impact assessment using simple proxy indicators derived from EO data. You may determine this for a representative and strategically selected sample of areas-of-interest, comparing the impact between two continents.
+2020: under the pandemic wave, the world slowed down. Industries and transports were heavily impacted and beyond the effects on private lives and social interactions, the pandemic had repercussions on the environment. The question leading us was how much of these changes we could actually see in data from satellite. We focused on variations in greenhouse gases (SO2, NO2, O3, CO) and ozone, and on the differences of these variations across different world countries. To this end we performed a time-oriented analysis on time series and a complementary geography-oriented analysis, based on unsupervised feature extracting, to highlight differences between countries.
 
 # Objectives
-Can you develop 2-3 globally applicable “proxies” that characterize the impact of the pandemic on air quality and/or socio-economic activities? How can you integrate different proxies into an integrated economic indicator? Use Earth observation data from at least two of the three regions for the developed proxies, ensuring the same assessment can be performed in the USA/Europe/Asia.
+Out aim is to create a feasible application to the EODashboard in order to quantify the socio-economic impacts that the pandemic has had on different cuntries. We perform using different varibles from the Copernicus Sentinel 5. 
 
 # Potential Considerations
 How can you develop an integrated economic composite indicator by integrating air quality / air pollution and/or the developed proxies comparatively across the study regions in the US, Europe, and Asia including Japan?
