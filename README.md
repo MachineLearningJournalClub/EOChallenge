@@ -11,7 +11,7 @@ Out aim is to create a feasible application to the EODashboard in order to quant
 
 # How to Use
 
+
 - First of all data must be retrieved from Sentinel hub platform by using the file: S5PL2.ipynb
 - After that the data for all the countries must be stored using the merge_file.ipybn
 - Different type of analysis can be done at this point:
-  - 
