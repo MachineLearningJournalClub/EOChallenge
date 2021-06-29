@@ -14,6 +14,8 @@ Out aim is to create a feasible application to the EODashboard in order to quant
 - First of all data must be retreived from Sentinel hub platform by using the file: S5PL2.ipynb
 - After that the data for all the countries must be stored using the merge_file.ipybn
 - Different type of analysis can be done at this point:
+
   a) An autoencoder architecture to reduce time series to a bunch of scalar values representing emission changes during a given period; such scalar values    could then be used to differentiate between countries.
+  
   b) A country-specific time series study to understand the change in emission pattern during the pandemic. This is achieved by using Prophet [https://github.com/facebook/prophet](url), open source software released by Facebook's Core Data Science team.
 
