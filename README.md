@@ -26,10 +26,10 @@ We used the following pipeline in order to perform our analysis:
 - S5PL2.ipynb: retrieve data and save them in the "data/data_countries" folder;
 - merge_files.ipynb: take all the previously files and merge them in two files. Ones with all the Nan values still present while the second one with Nan values managed. These files are saved in the "data/data_merged" directory;
 - csv.ipynb: files used to compute the mean over the pre covid period and the covid one. It save these values in the "data/csv" folder. These data will be then plotted in the map.html.
+- 
 Different type of analysis can be done at this point: an autoencoder architecture to reduce time series to a bunch of scalar values representing emission changes during a given period; such scalar values are then be used to differentiate between countries. Such type of analysis can be further improved in order to obtain a more clear clustering.
--geography-oriented (autoenconder.ipynb):
--time-oriented (prophet_analysis2.ipynb):a country-specific time series study to understand the change in emission pattern during the pandemic.
-  a)
+- geography-oriented (autoenconder.ipynb):
+- time-oriented (prophet_analysis2.ipynb):a country-specific time series study to understand the change in emission pattern during the pandemic.
 
 # Map
 
